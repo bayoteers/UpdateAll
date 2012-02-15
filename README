@@ -1,0 +1,9 @@
+This simple perl script allows to pull the Bayoteers extension into an existing bugzilla instance(3.6.x and 4.0.x branches).
+It doesn't pull the Metrics or MetricsManager since these are standalone and need to be installed separately.
+You can easily customize the extensions you want to install by adding/removing them at line 9:
+my @extensions = ('BayotBase','Dashboard','EnhancedTreeView','ADD YOUR EXTENSION HERE');
+
+Note that you can directly use our LandFill repository to test against bugzilla 4.0.4
+
+Have fun ;)
+
