@@ -6,7 +6,7 @@
 use strict;
 use Cwd;
 
-my @extensions = ('Dashboard','EnhancedTreeView','InlineEditor','ChangeLog','EnhancedSeeAlso','MediaInfo','ListComponents','Scrums');
+my @extensions = ('BayotBase','Dashboard','EnhancedTreeView','InlineEditor','ChangeLog','EnhancedSeeAlso','MediaInfo','ListComponents','Scrums');
 
 sub move_hook_to_extension($){
   my ($extension) = @_;
